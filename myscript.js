@@ -74,21 +74,21 @@ function showUserData(userData) {
                     <div>
                         <div class="display__row">
                             <img src="assets/location.png" class="icon">
-                            <p>${ userData.location }</p>
+                            <p>${  userData.location ? userData.location : "" }</p>
                         </div>
                         <div class="display__row">
                             <img src="assets/link.png" class="icon">
-                            <a>${ userData.blog }</a>
+                            <a>${ userData.blog ? userData.blog : "" }</a>
                         </div>
                     </div>
                     <div>
                         <div class="display__row">
                             <img src="assets/twitter.png" class="icon">
-                            <p>${ userData.twitter_username}</p>
+                            <p>${ userData.twitter_username ? userData.twitter_username: ""}</p>
                         </div>
                         <div class="display__row">
                             <img src="assets/company.png" class="icon">
-                            <p>${ userData.company}</p>
+                            <p>${ userData.company? userData.company : "" }</p>
                         </div>
                     </div>
                 </article>

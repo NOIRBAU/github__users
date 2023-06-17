@@ -201,6 +201,8 @@ form {
 .error {
     text-align: center;
     margin: 10px;
+    display: flex;
+    width: 400px;
 }
 
 /* MEDIA QUERIES  */
